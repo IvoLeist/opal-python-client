@@ -1,3 +1,18 @@
+Use this branch ist to build the package
+
+### Build
+```
+mvn clean package
+```
+
+### Install
+```
+cd target
+tar xvzf opal-python-client-X.XX.tar.gz
+python3 opal-python-client-X.XX/setup.py install
+```
+
+---
 # Opal Python [![Build Status](https://travis-ci.org/obiba/opal-python-client.svg?branch=master)](https://travis-ci.org/obiba/opal-python-client)
 
 This Python-based command line tool allows to access to a Opal server through its REST API. This is the perfect tool
